@@ -1,0 +1,314 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Seccion header de bienvenida*/
+#bienvenida{
+    background-image: url(../img/portada.jpg);
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 11vw;
+    padding-right: 11vw;
+}
+
+#bienvenida a{
+    color: #fff;
+}
+
+.despegable li a{
+    background-color: dimgrey;
+}
+
+.clasico{
+    margin-top: 17em;
+}
+
+.portada h3{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.portada p{
+    color: #fff;
+}
+
+/* Seccion de informacion*/
+
+#foundation{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.col-md-6 img{
+    max-width: 100%;
+}
+
+.capa{
+    padding: 70px 0;
+}
+
+.capa h1{
+    color: #A89F68;
+}
+
+.description h3 {
+    color: #A89F68;
+}
+
+.description{
+    display: flex;
+}
+description p{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.description .paff1{
+    padding-right: 10px;
+}
+.description .paff2{
+    padding-left: 10px;
+}
+
+/* Seccion de Easy */
+#easy{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #A89F68;
+    color: #fff;
+}
+
+.corner{
+    border: 10px solid #fff;
+}
+
+#easy h2{
+    color: #41521F;
+}
+
+/* Seccion help */
+#help{
+    background-image: url(../img/all.jpg);
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.helphin{
+    margin-top: 60px;
+}
+
+/* Quinta seccion*/
+
+#icon{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.servicio{
+    padding: 0px 30px;
+}
+
+.servicio h2{
+    color: #A89F68;
+    font-weight: bolder;
+}
+.servicio p{
+    font-size: 1.2em;
+}
+
+.servicio i{
+    font-size: 6em;
+    margin-bottom: 15px;
+    color: #A89F68;
+}
+.guilla{
+    margin-bottom: 50px;
+}
+
+/* sexta seccion estadisticas*/
+#stadistica{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #A89F68;
+}
+
+.title{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#stadistica h2{
+    color: #41521F;
+}
+
+.dispace h3{
+    letter-spacing: 2px;
+}
+.numeral{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 10em;
+    color: #fff;
+    font-weight: bold;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.upp{
+   font-size: 2em; 
+}
+
+.bigg{
+    font-size: 7em;
+}
+
+.down{
+    padding-top: 7em;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: #41521F;
+    color:white;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
