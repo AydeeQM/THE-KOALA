@@ -97,12 +97,12 @@ description p{
     color: #fff;
 }
 
-.corner{
-    border: 10px solid #fff;
-}
-
 #easy h2{
     color: #41521F;
+}
+.corner{
+    height: 15em;
+    border: 0.5vw solid #fff;
 }
 
 /* Seccion help */
@@ -160,6 +160,9 @@ description p{
     padding-top: 40px;
     padding-bottom: 100px;
     background-color: #A89F68;
+}
+#stadistica a{
+    font-weight: bold;
 }
 
 .title{
